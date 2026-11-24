@@ -1,0 +1,15 @@
+name: filter_service_signoff
+description: 上门换芯工单的费用核对与手写签收样例
+publish_to: none
+version: 1.0.0+1
+environment:
+  sdk: '>=3.8.0 <4.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  shared_preferences: 2.5.3
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+flutter:
+  uses-material-design: true
